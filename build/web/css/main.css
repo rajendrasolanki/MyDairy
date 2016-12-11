@@ -1,0 +1,28 @@
+.mainBox{
+    background-color: blueviolet;
+    border-color: black;
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+    width: 210px;
+    height: 310px;
+}
+.subBox{
+    border: black solid thin ;
+    width: 100px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    font: bold large monospace ;
+    color:  aliceblue;
+}
+a{
+   text-decoration: none;
+   color: azure;
+   font-size: 18px;
+}
+.PDetail{
+    height: 100px;
+    width: 200px;
+}
