@@ -37,8 +37,7 @@ app.controller("Detail",function ($scope,$http,$routeParams) {
         url:"PDetail?table="+$routeParams.table+"&id="+$routeParams.id,
         method:"GET"
     }).then(function (response){
-        $scope.Detail=response.data.DATA;
-        console.log($scope.Detail);
+        $scope.Detail=response.data.DATA;        
     },function (response){
         console.log(response);
     });
